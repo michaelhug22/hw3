@@ -4,7 +4,7 @@
 // Provide your implementation of llpivot below
 //*********************************************
 void llpivot(Node*& head, Node*& smaller, Node*& larger, int pivot) {
-    if (!head) { // check if empty
+    if (!head) { // check if ll is empty
         smaller = nullptr;
 				larger = nullptr;
         return;
